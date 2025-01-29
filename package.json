@@ -1,0 +1,21 @@
+{
+  "name": "cs_programming-html-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "author": "Marco Lilli",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "npx rollup -c",
+    "build:watch": "npx tsc --watch & npx rollup -c --watch"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.32.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-watch": "^1.0.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}
